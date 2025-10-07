@@ -1,0 +1,81 @@
+/* Main container styling */
+.goog-te-gadget-simple {
+  background: red !important;
+  border: 1px solid red !important;
+  border-radius: 5px !important;
+  padding: 10px 10px !important;
+  font-size: 16px !important;
+  color: red !important;
+  font-family: inherit !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+}
+
+/* Hide unnecessary Google logo/image */
+.goog-te-gadget img {
+  display: none !important;
+}
+
+/* Prevent Google Translate banner at the top */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+/* Remove the grey bar that sometimes appears on translate load */
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+}
+
+/* Optional: Smooth the dropdown style */
+.goog-te-combo {
+  padding: 10px 10px !important;
+  border-radius: 20px !important;
+  border: 1px solid #ccc !important;
+  background-color: #fff !important;
+  color: #333 !important;
+  font-family: inherit !important;
+}
+
+/* Hide Google translate tooltip */
+#goog-gt-tt,
+.goog-tooltip,
+.activity-root,
+.status-message {
+  display: none !important;
+}
+
+/* Hide auto-popup button from Chrome extension */
+#gtx-trans {
+  display: none !important;
+}
+
+/* Prevent layout breaks in some cases */
+.goog-te-gadget {
+  line-height: normal !important;
+}
+
+/* Hide Google Translate top bar */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important; /* Prevent spacing issues when bar is hidden */
+}
+
+/* Hide the Google Translate loader spinner */
+.goog-te-spinner-pos,
+.goog-te-spinner-animation {
+  display: none !important;
+}
+
+/* For Mobile: Hide Translate element visually but make it functional */
+#google_translate_element_mobile {
+  display: block !important;
+  height: 0;
+  overflow: hidden;
+}
